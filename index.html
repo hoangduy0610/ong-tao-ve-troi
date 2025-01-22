@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đưa ông táo về trời</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="toast" id="myToast"></div>
+        <h1>Đưa ông táo về trời</h1>
+        <div class="cung_zone">
+            <img class="mam_cung d-none" src="./images/mam_cung.png" alt="Mâm cúng">
+            <img class="ong_tao" src="./images/ong_tao.png" alt="Ông táo">
+        </div>
+        <img class="thap_huong" src="./images/lu_huong_static.png" alt="Ông táo">
+        <div class="input_group mt-3 g-5">
+            <div class="input_group">
+                <input type="checkbox" id="CBox_MamCung" />
+                <label for="CBox_MamCung">Mâm cúng</label>
+            </div>
+            <div class="input_group">
+                <input type="checkbox" id="CBox_ThapHuong" />
+                <label for="CBox_ThapHuong">Thắp hương</label>
+            </div>
+        </div>
+        <button class="btn mt-3" id="startDuaOngTao">
+            Đưa ông táo về trời
+        </button>
+        <button class="btn mt-3" id="resetDuaOngTao">
+            Kéo ông táo về lại
+        </button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

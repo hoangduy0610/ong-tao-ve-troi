@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.g-5 {
+    gap: 35px;
+}
+
+.d-none {
+    display: none;
+}
+
+.cung_zone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    height: 200px;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.mam_cung {
+    height: 200px;
+    position: absolute;
+    right: calc(50% + 20px);
+}
+
+.ong_tao {
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    left: calc(50% + 20px);
+}
+
+.thap_huong {
+    height: 150px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#resetDuaOngTao {
+    background-color: #dc3545;
+}
+
+.toast {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    /* border-left: #007bff 5px solid; */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 350px;
+
+    /* Animation: slide from left when open */
+    animation: slideFromLeft 0.5s ease;
+}
+
+@keyframes slideFromLeft {
+    from {
+        right: -350px;
+    }
+
+    to {
+        right: 20px;
+    }
+}
